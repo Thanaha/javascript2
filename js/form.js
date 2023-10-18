@@ -101,7 +101,7 @@ function validaPaciente(paciente){
 
     if( paciente.altura.length == 0){
         erros.push("A altura não pode ser nula")
-    }
+    }   
 
     return erros;
 }
